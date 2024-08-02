@@ -1,0 +1,115 @@
+*{
+    padding:0px;
+    margin: 0px; 
+    font-family: "Oswald", sans-serif;
+}
+
+h1{
+   text-align: center;
+}  
+
+header{
+    display: flex;
+    width: 100%;
+    background-color:black;
+    height: 70px;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: rgb(113, 127, 140);
+    }
+
+
+ul{
+    display: flex;
+}
+
+li{
+    display: flex;
+    padding-right: 40px;
+}
+
+.cart{
+    padding-top: 10px;
+    font-size: xx-large;
+}
+
+h1{
+    padding-left: 20px;
+}
+
+i{
+    padding-right: 5px;
+}
+
+#banner{
+    background-image: url(https://previews.123rf.com/images/neirfy/neirfy1808/neirfy180800061/105800581-pile-of-old-books-on-blue-background-banner.jpg);
+    width: 100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    background-attachment: fixed;
+    background-size: cover;
+     margin: 20px;
+     
+}
+
+
+.row{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color:rgb(236, 238, 242);
+    justify-content: space-around;
+
+} 
+
+.col{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(14, 13, 13);
+     margin: auto;
+     text-align: center;
+     
+}
+button{
+    background-color: rgb(12, 10, 10);
+    color: rgb(220, 224, 223);
+    
+}
+button:hover{
+    color: red;
+}
+h3,h4{
+    color: aliceblue;
+}
+
+video{
+    width: 100%;
+    height: 900px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: space-evenly;
+}
+
+.foot{
+    width: 200px;
+    height: 150px;
+  
+
+}
+
+h5,h6{
+    color: brown;
+}
+
+.welcome{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: rgb(113, 127, 140);
+    text-align: center;
+}
